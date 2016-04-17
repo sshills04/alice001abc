@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCDE2AA1CC3C73800D531D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE2A91CC3C73800D531D1 /* AppDelegate.swift */; };
+		5DCDE2AC1CC3C73800D531D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE2AB1CC3C73800D531D1 /* ViewController.swift */; };
+		5DCDE2AF1CC3C73800D531D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCDE2AD1CC3C73800D531D1 /* Main.storyboard */; };
+		5DCDE2B11CC3C73800D531D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCDE2B01CC3C73800D531D1 /* Assets.xcassets */; };
+		5DCDE2B41CC3C73800D531D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCDE2B21CC3C73800D531D1 /* LaunchScreen.storyboard */; };
+		5DCDE2BF1CC3C73800D531D1 /* Food2ForkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE2BE1CC3C73800D531D1 /* Food2ForkTests.swift */; };
+		5DCDE2CA1CC3C73800D531D1 /* Food2ForkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE2C91CC3C73800D531D1 /* Food2ForkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DCDE2BB1CC3C73800D531D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCDE29E1CC3C73800D531D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCDE2A51CC3C73800D531D1;
+			remoteInfo = Food2Fork;
+		};
+		5DCDE2C61CC3C73800D531D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCDE29E1CC3C73800D531D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCDE2A51CC3C73800D531D1;
+			remoteInfo = Food2Fork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DCDE2A61CC3C73800D531D1 /* Food2Fork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food2Fork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCDE2A91CC3C73800D531D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DCDE2AB1CC3C73800D531D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DCDE2AE1CC3C73800D531D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DCDE2B01CC3C73800D531D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCDE2B31CC3C73800D531D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DCDE2B51CC3C73800D531D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCDE2BA1CC3C73800D531D1 /* Food2ForkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCDE2BE1CC3C73800D531D1 /* Food2ForkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food2ForkTests.swift; sourceTree = "<group>"; };
+		5DCDE2C01CC3C73800D531D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCDE2C51CC3C73800D531D1 /* Food2ForkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCDE2C91CC3C73800D531D1 /* Food2ForkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food2ForkUITests.swift; sourceTree = "<group>"; };
+		5DCDE2CB1CC3C73800D531D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCDE2A31CC3C73800D531D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2B71CC3C73800D531D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2C21CC3C73800D531D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DCDE29D1CC3C73800D531D1 = {
+			isa = PBXGroup;
+			children = (
+				5DCDE2A81CC3C73800D531D1 /* Food2Fork */,
+				5DCDE2BD1CC3C73800D531D1 /* Food2ForkTests */,
+				5DCDE2C81CC3C73800D531D1 /* Food2ForkUITests */,
+				5DCDE2A71CC3C73800D531D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCDE2A71CC3C73800D531D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDE2A61CC3C73800D531D1 /* Food2Fork.app */,
+				5DCDE2BA1CC3C73800D531D1 /* Food2ForkTests.xctest */,
+				5DCDE2C51CC3C73800D531D1 /* Food2ForkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCDE2A81CC3C73800D531D1 /* Food2Fork */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDE2A91CC3C73800D531D1 /* AppDelegate.swift */,
+				5DCDE2AB1CC3C73800D531D1 /* ViewController.swift */,
+				5DCDE2AD1CC3C73800D531D1 /* Main.storyboard */,
+				5DCDE2B01CC3C73800D531D1 /* Assets.xcassets */,
+				5DCDE2B21CC3C73800D531D1 /* LaunchScreen.storyboard */,
+				5DCDE2B51CC3C73800D531D1 /* Info.plist */,
+			);
+			path = Food2Fork;
+			sourceTree = "<group>";
+		};
+		5DCDE2BD1CC3C73800D531D1 /* Food2ForkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDE2BE1CC3C73800D531D1 /* Food2ForkTests.swift */,
+				5DCDE2C01CC3C73800D531D1 /* Info.plist */,
+			);
+			path = Food2ForkTests;
+			sourceTree = "<group>";
+		};
+		5DCDE2C81CC3C73800D531D1 /* Food2ForkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDE2C91CC3C73800D531D1 /* Food2ForkUITests.swift */,
+				5DCDE2CB1CC3C73800D531D1 /* Info.plist */,
+			);
+			path = Food2ForkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCDE2A51CC3C73800D531D1 /* Food2Fork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCDE2CE1CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2Fork" */;
+			buildPhases = (
+				5DCDE2A21CC3C73800D531D1 /* Sources */,
+				5DCDE2A31CC3C73800D531D1 /* Frameworks */,
+				5DCDE2A41CC3C73800D531D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food2Fork;
+			productName = Food2Fork;
+			productReference = 5DCDE2A61CC3C73800D531D1 /* Food2Fork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DCDE2B91CC3C73800D531D1 /* Food2ForkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCDE2D11CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2ForkTests" */;
+			buildPhases = (
+				5DCDE2B61CC3C73800D531D1 /* Sources */,
+				5DCDE2B71CC3C73800D531D1 /* Frameworks */,
+				5DCDE2B81CC3C73800D531D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCDE2BC1CC3C73800D531D1 /* PBXTargetDependency */,
+			);
+			name = Food2ForkTests;
+			productName = Food2ForkTests;
+			productReference = 5DCDE2BA1CC3C73800D531D1 /* Food2ForkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DCDE2C41CC3C73800D531D1 /* Food2ForkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCDE2D41CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */;
+			buildPhases = (
+				5DCDE2C11CC3C73800D531D1 /* Sources */,
+				5DCDE2C21CC3C73800D531D1 /* Frameworks */,
+				5DCDE2C31CC3C73800D531D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCDE2C71CC3C73800D531D1 /* PBXTargetDependency */,
+			);
+			name = Food2ForkUITests;
+			productName = Food2ForkUITests;
+			productReference = 5DCDE2C51CC3C73800D531D1 /* Food2ForkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCDE29E1CC3C73800D531D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Linn Solutions";
+				TargetAttributes = {
+					5DCDE2A51CC3C73800D531D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5DCDE2B91CC3C73800D531D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5DCDE2A51CC3C73800D531D1;
+					};
+					5DCDE2C41CC3C73800D531D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5DCDE2A51CC3C73800D531D1;
+					};
+				};
+			};
+			buildConfigurationList = 5DCDE2A11CC3C73800D531D1 /* Build configuration list for PBXProject "Food2Fork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCDE29D1CC3C73800D531D1;
+			productRefGroup = 5DCDE2A71CC3C73800D531D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCDE2A51CC3C73800D531D1 /* Food2Fork */,
+				5DCDE2B91CC3C73800D531D1 /* Food2ForkTests */,
+				5DCDE2C41CC3C73800D531D1 /* Food2ForkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCDE2A41CC3C73800D531D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCDE2B41CC3C73800D531D1 /* LaunchScreen.storyboard in Resources */,
+				5DCDE2B11CC3C73800D531D1 /* Assets.xcassets in Resources */,
+				5DCDE2AF1CC3C73800D531D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2B81CC3C73800D531D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2C31CC3C73800D531D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCDE2A21CC3C73800D531D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCDE2AC1CC3C73800D531D1 /* ViewController.swift in Sources */,
+				5DCDE2AA1CC3C73800D531D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2B61CC3C73800D531D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCDE2BF1CC3C73800D531D1 /* Food2ForkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCDE2C11CC3C73800D531D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCDE2CA1CC3C73800D531D1 /* Food2ForkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DCDE2BC1CC3C73800D531D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCDE2A51CC3C73800D531D1 /* Food2Fork */;
+			targetProxy = 5DCDE2BB1CC3C73800D531D1 /* PBXContainerItemProxy */;
+		};
+		5DCDE2C71CC3C73800D531D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCDE2A51CC3C73800D531D1 /* Food2Fork */;
+			targetProxy = 5DCDE2C61CC3C73800D531D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DCDE2AD1CC3C73800D531D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCDE2AE1CC3C73800D531D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DCDE2B21CC3C73800D531D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCDE2B31CC3C73800D531D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DCDE2CC1CC3C73800D531D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCDE2CD1CC3C73800D531D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCDE2CF1CC3C73800D531D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DCDE2D01CC3C73800D531D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DCDE2D21CC3C73800D531D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Debug;
+		};
+		5DCDE2D31CC3C73800D531D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Release;
+		};
+		5DCDE2D51CC3C73800D531D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5DCDE2D61CC3C73800D531D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = linnsolutions.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCDE2A11CC3C73800D531D1 /* Build configuration list for PBXProject "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCDE2CC1CC3C73800D531D1 /* Debug */,
+				5DCDE2CD1CC3C73800D531D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCDE2CE1CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCDE2CF1CC3C73800D531D1 /* Debug */,
+				5DCDE2D01CC3C73800D531D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DCDE2D11CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2ForkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCDE2D21CC3C73800D531D1 /* Debug */,
+				5DCDE2D31CC3C73800D531D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DCDE2D41CC3C73800D531D1 /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCDE2D51CC3C73800D531D1 /* Debug */,
+				5DCDE2D61CC3C73800D531D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DCDE29E1CC3C73800D531D1 /* Project object */;
+}
