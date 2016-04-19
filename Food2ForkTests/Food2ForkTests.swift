@@ -3,7 +3,7 @@
 //  Food2ForkTests
 //
 //  Created by Victor Benning on 4/17/16.
-//  Copyright © 2016 Linn Solutions. All rights reserved.
+//  Copyright © 2016 Benning. All rights reserved.
 //
 
 import XCTest
@@ -31,6 +31,10 @@ class Food2ForkTests: XCTestCase {
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testLoad(){
+        var vc = HomeViewController()
     }
     
 }

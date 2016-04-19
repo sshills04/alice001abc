@@ -3,7 +3,7 @@
 //  Food2Fork
 //
 //  Created by Victor Benning on 4/17/16.
-//  Copyright © 2016 Linn Solutions. All rights reserved.
+//  Copyright © 2016 Benning. All rights reserved.
 //
 
 import UIKit
